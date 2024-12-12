@@ -13,7 +13,7 @@ Prompt the user to select an image to be the "original".
 
 * Scan the SVG document for any existing clones.
 * If the selected image is already a clone:
-* * Identify the original image it's cloned from.
+ ** Identify the original image it's cloned from.
 * * Update the selection to the original image.
 * * Store the `x`, `y`, `width`, and `height` attributes of the original image.
 * If the selected image is the "original" for other clones, proceed to the next step. Otherwise, make it a clone of the existing original and exit.
