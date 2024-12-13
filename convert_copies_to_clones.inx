@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Convert Copies to Clones</_name>
+    <id>org.inkscape.effect.convert_copies_to_clones</id>
+    <effect>
+        <object_type>all</object-type>
+        <effects-menu>
+            <submenu _name="Hemelbesem90s"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command reldir="extensions" interpreter="python">convert_copies_to_clones.py</command> 
+    </script>
+</inkscape-extension>
